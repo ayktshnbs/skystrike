@@ -1,12 +1,12 @@
-# Endless Runner
+# SkyStrike
 
-Endless Runner is an Android game project developed with Android Studio.
+SkyStrike is an Android game project developed with Android Studio.
 
 This repository contains the source code of the game. You can download the project and run it on your own computer using Android Studio.
 
-## How to Run the Game
+## How to Test the Game from GitHub
 
-### 1. Download the Project
+### 1. Download or Clone the Repository
 
 Click the green **Code** button on GitHub and choose:
 
@@ -15,40 +15,41 @@ Download ZIP
 
 Then extract the ZIP file to your computer.
 
-Alternatively, you can clone the repository:
+Or clone the repository using Git:
 
-git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+git clone https://github.com/ayktshnbs/skystrike.git
 2. Open the Project in Android Studio
 
-Open Android Studio, then choose:
+Open Android Studio.
+
+Then go to:
 
 File > Open
 
 Select the project folder:
 
-EndlessRunner
+skystrike
 
-Wait for Android Studio to load the project and complete the Gradle sync.
+Wait for Android Studio to finish Gradle sync.
 
 3. Run the Game
 
-You can run the game in two ways:
+You can run the game using an Android Emulator or a real Android phone.
 
-Option A: Run on Android Emulator
+For emulator:
 
-Create or select an Android emulator in Android Studio, then click the Run button.
+Select an Android Emulator and click Run.
 
-Option B: Run on Android Phone
+For real phone:
 
-Connect your Android phone with USB cable.
-
-Make sure Developer Options and USB Debugging are enabled on your phone.
-
-Then select your phone in Android Studio and click Run.
-
+Enable Developer Options.
+Enable USB Debugging.
+Connect your phone with USB.
+Select your device in Android Studio.
+Click Run.
 Requirements
 
-To open and run this project, you need:
+To run this project, you need:
 
 Android Studio
 Android SDK
@@ -56,14 +57,8 @@ Gradle
 Android Emulator or Android phone
 Notes
 
-This project is shared as source code.
-It is mainly intended for testing, development, and learning purposes.
+This repository is public and shared for testing and development purposes.
 
 If you only want to play the game without Android Studio, you will need an APK version.
 
 
-
-
-README içindeki clone satırı şöyle olmalı:
-
-git clone https://github.com/aykut/endless-runner.git
