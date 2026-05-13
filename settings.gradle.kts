@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "EndlessRunner"
+rootProject.name = "SkyStrike"
 include(":app")
